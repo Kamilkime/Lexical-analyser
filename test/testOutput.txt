@@ -1,0 +1,254 @@
+Function isInsideDefinition():
+  Definition:
+    File src/printUtils.c, lines 112 to 115
+  Prototype:
+    File src/printUtils.h, lines 20 to 20
+  Usage:
+    File src/printUtils.c, lines 87 to 87
+    File src/printUtils.c, lines 61 to 61
+  Calls:
+    strcmp() - 1 time
+
+Function printCalls():
+  Definition:
+    File src/printUtils.c, lines 53 to 108
+  Prototype:
+    File src/printUtils.h, lines 16 to 16
+  Usage:
+    File src/main.c, lines 130 to 130
+  Calls:
+    freeNameStack() - 1 time
+    printf() - 3 time
+    putOnNameStack() - 1 time
+    isInsideDefinition() - 2 time
+    strcmp() - 2 time
+    malloc() - 1 time
+    sizeof() - 1 time
+
+Function printUsages():
+  Definition:
+    File src/printUtils.c, lines 32 to 49
+  Prototype:
+    File src/printUtils.h, lines 12 to 12
+  Usage:
+    File src/main.c, lines 129 to 129
+  Calls:
+    printf() - 3 time
+    strcmp() - 1 time
+
+Function printPrototype():
+  Definition:
+    File src/printUtils.c, lines 9 to 28
+  Prototype:
+    File src/printUtils.h, lines 8 to 8
+  Usage:
+    File src/main.c, lines 128 to 128
+  Calls:
+    printf() - 3 time
+    strcmp() - 1 time
+
+Function getFromFunctionStack():
+  Definition:
+    File src/stack.c, lines 86 to 94
+  Prototype:
+    File src/stack.h, lines 73 to 73
+  Usage:
+    File src/main.c, lines 87 to 87
+    File src/main.c, lines 81 to 81
+    File src/main.c, lines 74 to 74
+  Calls:
+    NO CALLS
+
+Function freeNameStack():
+  Definition:
+    File src/stack.c, lines 73 to 82
+  Prototype:
+    File src/stack.h, lines 69 to 69
+  Usage:
+    File src/printUtils.c, lines 107 to 107
+  Calls:
+    free() - 1 time
+
+Function freeUsageStack():
+  Definition:
+    File src/stack.c, lines 61 to 69
+  Prototype:
+    File src/stack.h, lines 65 to 65
+  Usage:
+    File src/main.c, lines 142 to 142
+    File src/main.c, lines 141 to 141
+    File src/main.c, lines 140 to 140
+  Calls:
+    free() - 2 time
+
+Function freeFunctionStack():
+  Definition:
+    File src/stack.c, lines 47 to 57
+  Prototype:
+    File src/stack.h, lines 61 to 61
+  Usage:
+    File src/main.c, lines 138 to 138
+  Calls:
+    free() - 3 time
+
+Function putOnNameStack():
+  Definition:
+    File src/stack.c, lines 37 to 43
+  Prototype:
+    File src/stack.h, lines 57 to 57
+  Usage:
+    File src/printUtils.c, lines 95 to 95
+  Calls:
+    malloc() - 1 time
+    sizeof() - 1 time
+
+Function putOnUsageStack():
+  Definition:
+    File src/stack.c, lines 23 to 33
+  Prototype:
+    File src/stack.h, lines 53 to 53
+  Usage:
+    File src/main.c, lines 87 to 87
+    File src/main.c, lines 81 to 81
+    File src/main.c, lines 74 to 74
+  Calls:
+    malloc() - 1 time
+    sizeof() - 1 time
+
+Function putOnFunctionStack():
+  Definition:
+    File src/stack.c, lines 8 to 19
+  Prototype:
+    File src/stack.h, lines 49 to 49
+  Usage:
+    File src/main.c, lines 45 to 45
+  Calls:
+    strcpy() - 1 time
+    malloc() - 2 time
+    strlen() - 1 time
+    sizeof() - 2 time
+
+Function getLineNumber():
+  Definition:
+    File src/fileReader.c, lines 213 to 215
+  Prototype:
+    File src/fileReader.h, lines 37 to 37
+  Usage:
+    File src/main.c, lines 111 to 111
+    File src/main.c, lines 87 to 87
+    File src/main.c, lines 87 to 87
+    File src/main.c, lines 81 to 81
+    File src/main.c, lines 81 to 81
+    File src/main.c, lines 74 to 74
+  Calls:
+    NO CALLS
+
+Function getLastIdentifier():
+  Definition:
+    File src/fileReader.c, lines 207 to 209
+  Prototype:
+    File src/fileReader.h, lines 33 to 33
+  Usage:
+    File src/main.c, lines 40 to 40
+    File src/main.c, lines 39 to 39
+  Calls:
+    NO CALLS
+
+Function getNextLexem():
+  Definition:
+    File src/fileReader.c, lines 58 to 203
+  Prototype:
+    File src/fileReader.h, lines 29 to 29
+  Usage:
+    File src/main.c, lines 115 to 115
+    File src/main.c, lines 69 to 69
+    File src/main.c, lines 42 to 42
+    File src/main.c, lines 33 to 33
+  Calls:
+    isdigit() - 1 time
+    isKeyword() - 1 time
+    isalnum() - 1 time
+    getNextChar() - 8 time
+    isalpha() - 1 time
+    isSpaceChar() - 1 time
+
+Function getNextChar():
+  Definition:
+    File src/fileReader.c, lines 47 to 54
+  Prototype:
+    File src/fileReader.h, lines 25 to 25
+  Usage:
+    File src/fileReader.c, lines 183 to 183
+    File src/fileReader.c, lines 162 to 162
+    File src/fileReader.c, lines 145 to 145
+    File src/fileReader.c, lines 138 to 138
+    File src/fileReader.c, lines 133 to 133
+    File src/fileReader.c, lines 122 to 122
+    File src/fileReader.c, lines 106 to 106
+    File src/fileReader.c, lines 59 to 59
+  Calls:
+    fgetc() - 1 time
+
+Function isKeyword():
+  Definition:
+    File src/fileReader.c, lines 28 to 43
+  Prototype:
+    File src/fileReader.h, lines 21 to 21
+  Usage:
+    File src/fileReader.c, lines 190 to 190
+  Calls:
+    free() - 1 time
+    strcmp() - 15 time
+    tolower() - 1 time
+    malloc() - 1 time
+    strlen() - 1 time
+    sizeof() - 1 time
+
+Function isSpaceChar():
+  Definition:
+    File src/fileReader.c, lines 22 to 24
+  Prototype:
+    File src/fileReader.h, lines 17 to 17
+  Usage:
+    File src/fileReader.c, lines 63 to 63
+  Calls:
+    NO CALLS
+
+Function setFile():
+  Definition:
+    File src/fileReader.c, lines 15 to 18
+  Prototype:
+    File src/fileReader.h, lines 13 to 13
+  Usage:
+    File src/main.c, lines 28 to 28
+  Calls:
+    NO CALLS
+
+Function main():
+  Definition:
+    File src/main.c, lines 14 to 145
+  Prototype:
+    NO PROTOTYPE
+  Usage:
+    NO USAGE
+  Calls:
+    freeUsageStack() - 3 time
+    freeFunctionStack() - 1 time
+    printf() - 4 time
+    printCalls() - 1 time
+    printUsages() - 1 time
+    printPrototype() - 1 time
+    getNextLexem() - 4 time
+    getLineNumber() - 6 time
+    strcmp() - 1 time
+    putOnUsageStack() - 3 time
+    getFromFunctionStack() - 3 time
+    putOnFunctionStack() - 1 time
+    strcpy() - 1 time
+    getLastIdentifier() - 2 time
+    malloc() - 5 time
+    strlen() - 1 time
+    sizeof() - 5 time
+    setFile() - 1 time
+    fopen() - 1 time
+

@@ -8,10 +8,10 @@ The analyser was created as a part of **Programming languages and methodology** 
 `make clean`
 
 ### Usage
-`./lmp8 fileName.c fileName2.c fileName3.h etc`
+`./analyser fileName.c fileName2.c fileName3.h etc`
 
 ### Example
-An example output file can be found in the `test` folder
+An example output file can be found in `test/testOutput.txt`
 
 ### License
 The analyser is licensed under **MIT License** - https://choosealicense.com/licenses/mit/
