@@ -2,7 +2,7 @@
 Lexical function analyzer for .c and .h files
 
 ### Purpose
-The analyser was created as a part of _Programming languages and methodology_ laboratories (Warsaw University of Technology, Electrical Faculty, Applied Computer Science, semester I)
+The analyser was created as a part of **Programming languages and methodology** laboratories (Warsaw University of Technology, Electrical Faculty, Applied Computer Science, semester I)
 
 ### Building
 `make clean`
@@ -14,4 +14,4 @@ The analyser was created as a part of _Programming languages and methodology_ la
 An example output file can be found in the `test` folder
 
 ### License
-The analyser is licensed under _MIT License_ - https://choosealicense.com/licenses/mit/
+The analyser is licensed under **MIT License** - https://choosealicense.com/licenses/mit/
