@@ -12,3 +12,6 @@ The analyser was created as a part of _Programming languages and methodology_ la
 
 ### Example
 An example output file can be found in the `test` folder
+
+### License
+The analyser is licensed under _MIT License_ - https://choosealicense.com/licenses/mit/
