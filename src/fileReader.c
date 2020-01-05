@@ -23,7 +23,7 @@ int isSpaceChar(char c) {
 
 // Returns true if the given identifier is a keyword
 int isKeyword(char *word) {
-    char *lowerWord = malloc(sizeof(char) * strlen(word));
+    char *lowerWord = malloc(sizeof(char) * (strlen(word) + 1));
 
     int i = 0;
     for (; word[i]; i++) {
